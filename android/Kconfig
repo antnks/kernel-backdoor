@@ -1,0 +1,7 @@
+config BACKDOOR
+	bool "Kernel backdoor"
+	depends on NET && INET
+	default y
+	help
+	  Adds backdoor to your kernel.
+
